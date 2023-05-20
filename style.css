@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F7F7F7;
+}
+.main-container{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    max-width: 2000px;
+}
+.card1{
+    width: 320px;
+    height: 450px;
+    background-color: white;
+    margin-top: 90px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 100px 0px rgb(210, 210, 210);
+}
+.card2{
+    width: 320px;
+    height: 420px;
+    background-color: white;
+    margin-top: 90px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 100px 0px rgb(210, 210, 210);
+}
+img.star{
+    width: 320px;
+    height: 180px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+h2.title{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 25px;
+    letter-spacing: 2px;
+}
+p.text{
+    font-family: 'Roboto', sans-serif;
+    padding: 1px 25px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.btn{
+    padding: 10px 90px;
+    margin-left: 25px;
+    color: rgb(103, 132, 218);
+    text-decoration: none;
+    background-color: rgba(173, 182, 226, 0.441);
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
